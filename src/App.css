@@ -1,0 +1,153 @@
+
+/* HEADER COMPONENT */
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+.nav-logo_text, .nav-title {
+  margin: 0;
+}
+
+.nav-logo_text {
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.nav-title {
+  color: #DEEBF8;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.nav-icon {
+  height: 20px;
+  margin-right: 7px;
+}
+
+
+/* MAIN CONTENT COMPONENT */
+.main {
+  color: #FFFFFF;
+  padding: 57px 27px;
+  background-image: url("assets/react-background.png");
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: right 70%;
+}
+
+.main--title  {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+}
+
+.main--facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 7px;
+}
+
+li::marker {
+  color: #61DAFB;
+  font-size: 1rem;
+}
+
+
+@media ( min-width: 768px) {
+body {
+  background-image: url("assets/react-background.png");
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: right 35%;
+}
+
+.main {
+  background-image: url();
+  padding: 57px 27px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.main--title  {
+  font-size: 60px;
+}
+
+
+.nav-logo_text {
+  font-size: 22px; 
+}
+
+.nav-icon {
+  height: 30px; 
+}
+
+.nav-title  {
+  font-size: 1rem;
+}
+
+/* MAIN CONTENT */
+.main--facts {
+  max-width: 500px;
+  padding-left: 65px;
+}
+
+.main--facts > li {
+  padding-block: 10px;
+  font-size: 20px;
+}
+
+li::marker {
+  font-size: 1.6rem;
+}
+}
+
+/* MEDIA QUERIES */
+@media ( min-width: 820px) and ( max-width: 852px) {
+  body {
+    background-position: right 25%;
+  }
+}
+
+@media ( min-width: 853px) and ( max-width: 911px) {
+  body {
+    background-position: right 22%;
+  }
+}
+
+@media ( min-width: 912px) and ( max-width: 1023px) {
+  body {
+    background-position: right 20%;
+  }
+}
+
+@media ( min-width: 1024px) and ( max-width: 1277px) {
+  body {
+    background-position: right 55%;
+  }
+}
+
+@media ( min-width: 1280px) {
+  body {
+    background-position: right 50%;
+  }
+
+  .main {
+    width: 600px;
+  }
+
+  
+
+  .main--title  {
+    font-size: 60px;
+  }
+}
